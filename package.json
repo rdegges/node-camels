@@ -1,0 +1,28 @@
+{
+  "name": "camel",
+  "version": "0.0.1",
+  "description": "Camel-casing string methods for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdegges/node-camel"
+  },
+  "keywords": [
+    "node",
+    "camel",
+    "case",
+    "string"
+  ],
+  "author": "Randall Degges",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/rdegges/node-camel/issues"
+  },
+  "homepage": "https://github.com/rdegges/node-camel",
+  "devDependencies": {
+    "mocha": "^1.21.4"
+  }
+}
