@@ -2,6 +2,30 @@
 
 
 /**
+ * This function returns true if the string is uppercase, false otherwise.
+ *
+ * @method
+ * @private
+ *
+ * @returns true if the string is uppercase, false otherwise.
+ */
+function isUpper(s) {
+  return s === s.toUpperCase();
+}
+
+/**
+ * This function returns true if the string is lowercase, false otherwise.
+ *
+ * @method
+ * @private
+ *
+ * @returns true if the string is lowercase, false otherwise.
+ */
+function isLower(s) {
+  return s === s.toLowerCase();
+}
+
+/**
  * This function returns a camelCased version of the string.
  *
  * @method
