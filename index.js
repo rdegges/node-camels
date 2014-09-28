@@ -95,9 +95,7 @@ String.prototype.toUnderscore = function() {
       } else {
         modified += str[i].toLowerCase();
       }
-
     }
-
   }
 
   return modified;
