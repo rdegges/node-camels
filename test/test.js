@@ -46,3 +46,18 @@ describe('toCamelCase()', function() {
     done();
   });
 });
+
+describe('toUnderscore()', function() {
+  it('should remove all uppercase characters', function(done) {
+    assert.equal('wOOT'.toUnderscore(), 'w_oot');
+    assert.equal('hiThere'.toUnderscore(), 'hi_there');
+    done();
+  });
+
+  it('should replace transition characters with underscores', function(done) {
+    assert.equal('hiThere'.toUnderscore(), 'hi_there');
+    assert.equal('hiTHERE'.toUnderscore(), 'hi_there');
+    assert.equal('somethingIsFunkyHere'.toUnderscore(), 'something_is_funky_here');
+    done();
+  });
+});
