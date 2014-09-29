@@ -1,7 +1,7 @@
 {
-  "name": "camel",
+  "name": "camels",
   "version": "0.0.1",
-  "description": "Camel-casing string methods for Node.js.",
+  "description": "Easily convert to and from camelCase and under_score notation.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
