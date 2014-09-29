@@ -6,7 +6,7 @@
 
 *Easily convert to and from camelCase and under_score notation.*
 
-![Banana Peel Sketch](https://github.com/rdegges/node-camels/raw/master/assets/banana-peel.jpg)
+![Camel Sketch](https://github.com/rdegges/node-camels/raw/master/assets/camel-sketch.jpg)
 
 
 ## Meta
