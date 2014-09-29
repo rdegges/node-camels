@@ -1,12 +1,12 @@
-# node-camel
+# node-camels
 
-[![NPM Version](https://img.shields.io/npm/v/camel.svg?style=flat)](https://npmjs.org/package/camel)
-[![NPM Downloads](http://img.shields.io/npm/dm/camel.svg?style=flat)](https://npmjs.org/package/camel)
-[![Build Status](https://img.shields.io/travis/rdegges/node-camel.svg?style=flat)](https://travis-ci.org/rdegges/node-camel)
+[![NPM Version](https://img.shields.io/npm/v/camels.svg?style=flat)](https://npmjs.org/package/camels)
+[![NPM Downloads](http://img.shields.io/npm/dm/camels.svg?style=flat)](https://npmjs.org/package/camels)
+[![Build Status](https://img.shields.io/travis/rdegges/node-camels.svg?style=flat)](https://travis-ci.org/rdegges/node-camels)
 
-*Easily convert to and from camelCase.*
+*Easily convert to and from camelCase and under_score notation.*
 
-![Banana Peel Sketch](https://github.com/rdegges/node-camel/raw/master/assets/banana-peel.jpg)
+![Banana Peel Sketch](https://github.com/rdegges/node-camels/raw/master/assets/banana-peel.jpg)
 
 
 ## Meta
@@ -20,10 +20,10 @@
 
 ## Installation
 
-To install `camel` using [npm](https://www.npmjs.org/), simply run:
+To install `camels` using [npm](https://www.npmjs.org/), simply run:
 
 ```console
-$ npm install camel
+$ npm install camels
 ```
 
 In the root of your project directory.
@@ -31,19 +31,19 @@ In the root of your project directory.
 
 ## Usage
 
-Once you have `camel` installed, you can use it to easily convert function names
-to and from camelCase.  `camel` adds several string methods which you can call
+Once you have `camels` installed, you can use it to easily convert function names
+to and from camelCase.  `camels` adds several string methods which you can call
 directly after `require`'ing this module:
 
 ```javascript
-var camel = require('camel');
+var camels = require('camels');
 
 console.log('hiThere'.toUnderscore());          // hi_there
 console.log('hiTHERE'.toUnderscore());          // hi_there
 console.log('hiThereDude'.toUnderscore());      // hi_there_dude
 
 console.log('hi_there'.toCamelCase());          // hiThere
-console.log('hi_there_dude'.toUnderscore());    // hiThereDude
+console.log('hi_there_dude'.toCamelCase());     // hiThereDude
 ```
 
 **NOTE**: This library assumes that the string you're calling the desired method
